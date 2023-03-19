@@ -1,6 +1,23 @@
+@font-face {
+  font-family: 'Gothampro';
+  src: url(../public/fonts/gothampro.ttf);
+}
+
+@font-face {
+  font-family: 'Gothampro';
+  src: url(../public/fonts/gothampro_bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gothampro';
+  src: url(../public/fonts/gothampro_medium.ttf);
+  font-weight: 500;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Gotham Pro, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

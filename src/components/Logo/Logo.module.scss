@@ -1,0 +1,66 @@
+.logoContainer {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  text-transform: none;
+  column-gap: 25px;
+}
+
+.description {
+  font-size: 23px;
+  margin-top: 10px;
+}
+
+.logo {
+  background-image: url('../../../public/logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 134px;
+  height: 129px;
+}
+
+.text {
+  max-width: 300px;
+}
+
+@media only screen and (max-width: 1270px) {
+  .logoContainer {
+    font-size: 23px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .logoContainer {
+    font-size: 23px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 80px;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+  .logoContainer {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 108px;
+    height: 60px;
+  }
+
+}
