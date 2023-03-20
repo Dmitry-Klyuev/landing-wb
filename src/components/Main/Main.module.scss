@@ -10,7 +10,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-
+    z-index: 100;
     .time {
       font-style: normal;
       font-weight: 400;
@@ -164,7 +164,7 @@
   .wrapper{
     .content{
       .btn{
-        width: 70%;
+        width: 60%;
       }
     }
     .person{
