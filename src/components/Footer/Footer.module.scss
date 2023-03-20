@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: end;
     .number {
-      font-size: 57px;
+      font-size: 25px;
       line-height: 120%;
     }
     .info{
@@ -25,8 +25,9 @@
   .wrapper{
     padding: 35px 100px;
     .contacts{
+      align-items: center;
       .number{
-        font-size: 45px;
+        font-size: 16px;
       }
       .info{
         font-size: 18px;
