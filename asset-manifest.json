@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-wb/static/css/main.0fa4ea98.css",
+    "main.css": "/landing-wb/static/css/main.fcc5bb3d.css",
     "main.js": "/landing-wb/static/js/main.0dd423bb.js",
     "static/js/787.28525a86.chunk.js": "/landing-wb/static/js/787.28525a86.chunk.js",
     "static/media/bonus.svg": "/landing-wb/static/media/bonus.1f3807d31a1323e4a920.svg",
@@ -10,12 +10,12 @@
     "static/media/gothampro_medium.ttf": "/landing-wb/static/media/gothampro_medium.dca4b95d345c2abd8661.ttf",
     "static/media/gothampro.ttf": "/landing-wb/static/media/gothampro.4f71921a0823129cd8ba.ttf",
     "index.html": "/landing-wb/index.html",
-    "main.0fa4ea98.css.map": "/landing-wb/static/css/main.0fa4ea98.css.map",
+    "main.fcc5bb3d.css.map": "/landing-wb/static/css/main.fcc5bb3d.css.map",
     "main.0dd423bb.js.map": "/landing-wb/static/js/main.0dd423bb.js.map",
     "787.28525a86.chunk.js.map": "/landing-wb/static/js/787.28525a86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fa4ea98.css",
+    "static/css/main.fcc5bb3d.css",
     "static/js/main.0dd423bb.js"
   ]
 }
