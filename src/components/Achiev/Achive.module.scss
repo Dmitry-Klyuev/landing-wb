@@ -1,62 +1,69 @@
-.wrapper{
-    display: inline-block;
-    padding: 12px 15px;
+.wrapper {
+  display: inline-block;
+  padding: 12px 15px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 112%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  white-space: pre-line;
+  background: linear-gradient(90deg, #CD63C9 32.68%, rgba(205, 99, 201, 0) 90.92%);
+  border-radius: 34px;
+
+  div {
+    background: linear-gradient(90deg, #FFFFFF 4.48%, rgba(255, 255, 255, 0) 115.47%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 400;
     font-size: 24px;
-    line-height: 112%;
-    color: #FFFFFF;
+    line-height: 111.7%;
     text-transform: uppercase;
-    white-space: pre-line;
-    background: linear-gradient(90deg, #CD63C9 32.68%, rgba(205, 99, 201, 0) 90.92%);
-    border-radius: 34px;
-    div{
-        background: linear-gradient(90deg, #FFFFFF 4.48%, rgba(255, 255, 255, 0) 115.47%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 111.7%;
-        text-transform: uppercase;
-    }
+  }
 }
 
 
-.achieve_one{
-    position: absolute;
-    bottom: 250px;
-    left: -200px;
-    z-index: 100;
+.achieve_one {
+  position: absolute;
+  bottom: 250px;
+  left: -200px;
+  z-index: 100;
 }
-.achieve_two{
-    position: absolute;
-    bottom: 130px;
-    left: -240px;
-    z-index: 100;
+
+.achieve_two {
+  position: absolute;
+  bottom: 130px;
+  left: -240px;
+  z-index: 100;
 }
+
 @media (max-width: 1399px) {
-    .wrapper{
+  .wrapper {
+      max-width: 490px;
 
-    };
-    .achieve_one{
-        position: static;
-        display: inline-block;
+  }
+;
+  .achieve_one {
+    position: static;
+    display: inline-block;
 
-    }
-    .achieve_two{
-        display: inline-block;
-        position: static;
-    }
+  }
+  .achieve_two {
+    display: inline-block;
+    position: static;
+  }
 }
-@media (max-width: 966px) {
-    .wrapper{
-        div{
-            background: #ffffff;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 111.7%;
-        }
 
+@media (max-width: 966px) {
+  .wrapper {
+      max-width: 250px;
+    div {
+      background: #ffffff;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 111.7%;
     }
+
+  }
 }
